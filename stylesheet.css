@@ -12,10 +12,40 @@ p {
 	text-align: center;
 	font-size: 100%;
 }
+div.headings {
+	height: 50px;
+	max-width: 100%;
+	min-width: 480px;
+}
 
-div.heading {
-	height: 100px;
-	width: 300px;
-	padding: 5px;
+div.heading1 {
+	float: left;
+	height: 50px;
+	max-width: 50%;
+	min-width: 240px;
+	padding: 0px;
+	margin: 0px;
 	text-align: left;
+}
+
+div.heading2 {
+	float: right;
+	height: 50px;
+	max-width: 50%;
+	min-width: 240px;
+	padding: 5px;
+	text-align: right;
+}
+
+div.body {
+	width: 100%;
+	min-width: 480px;
+}
+
+div.time {
+	width: 100%;
+	min-width: 480px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
 }
